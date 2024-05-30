@@ -7,8 +7,8 @@ debuglevel = 0
 
 smtp_server = 'smtp.gmass.co'
 smtp_port = 587
-sender_email = 'malcolmn404@gmail.com'
-password = ' ba8ad973c5a245ee82dad7b56bdb4681'
+sender_email = 'example@gmail.com'
+password = ' #################'
 
 smtp = smtplib.SMTP(smtp_server, smtp_port)
 smtp.set_debuglevel(debuglevel)
